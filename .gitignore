@@ -1,0 +1,12 @@
+# Build output: scripts/build-linux-amd64.sh writes the .so and its sha256 here.
+/dist/
+
+# Libraries and cgo headers from local -buildmode=c-shared builds.
+*.so
+*.dylib
+*.h
+
+# Local operations notes (deployment, decisions, e2e scripts); never committed.
+/memories/
+
+.DS_Store
